@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+}
+
+header {
+    background: #198754;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+.login-box {
+    max-width: 320px;
+    margin: 100px auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+input, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+button {
+    background: #0d6efd;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.logout {
+    background: #dc3545;
+}
+
+img {
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    color: red;
+}
